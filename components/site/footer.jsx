@@ -32,13 +32,13 @@ export function Footer() {
         <div className="lg:col-span-3">
           <div className="text-xs uppercase tracking-[0.28em] text-brand-gold mb-5">Explore</div>
           <ul className="space-y-3 text-sm">
-            <li><Link href="/" className="hover:text-white text-white/70">Home</Link></li>
-            <li><Link href="/about" className="hover:text-white text-white/70">About Us</Link></li>
-            <li><Link href="/services" className="hover:text-white text-white/70">Services</Link></li>
-            <li><Link href="/gallery" className="hover:text-white text-white/70">Gallery</Link></li>
-            <li><Link href="/reviews" className="hover:text-white text-white/70">Reviews</Link></li>
-            <li><Link href="/contact" className="hover:text-white text-white/70">Contact</Link></li>
-            <li><Link href="/book" className="hover:text-white text-white/70">Book Appointment</Link></li>
+            <li><Link href="#" className="hover:text-white text-white/70">Home</Link></li>
+            <li><Link href="#about" className="hover:text-white text-white/70">About Us</Link></li>
+            <li><Link href="#services" className="hover:text-white text-white/70">Services</Link></li>
+            <li><Link href="#gallery" className="hover:text-white text-white/70">Gallery</Link></li>
+            <li><Link href="#reviews" className="hover:text-white text-white/70">Reviews</Link></li>
+            <li><Link href="#contact" className="hover:text-white text-white/70">Contact</Link></li>
+            <li><Link href="#book" className="hover:text-white text-white/70">Book Appointment</Link></li>
           </ul>
         </div>
 
@@ -47,15 +47,15 @@ export function Footer() {
           <ul className="space-y-4 text-sm text-white/75">
             <li className="flex items-start gap-3">
               <MapPin className="h-4 w-4 mt-0.5 text-brand-gold shrink-0" />
-              <span>104 Riverside Drive<br />East Peoria, IL 61611</span>
+              <span>1407 W Irving Park Rd Ste 1<br />Chicago, IL 61613</span>
             </li>
             <li className="flex items-start gap-3">
               <Phone className="h-4 w-4 mt-0.5 text-brand-gold shrink-0" />
-              <a href="tel:+13096940000" className="hover:text-white">(309) 694-0000</a>
+              <a href="tel:+13096348612" className="hover:text-white">(309) 694-0000</a>
             </li>
             <li className="flex items-start gap-3">
               <Mail className="h-4 w-4 mt-0.5 text-brand-gold shrink-0" />
-              <a href="mailto:roxie@breedlovegrooming.com" className="hover:text-white">roxie@breedlovegrooming.com</a>
+              <a href="mailto:xyz@breedlovegrooming.com" className="hover:text-white">roxie@breedlovegrooming.com</a>
             </li>
             <li className="flex items-start gap-3">
               <Clock className="h-4 w-4 mt-0.5 text-brand-gold shrink-0" />
@@ -67,10 +67,10 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/55">
-          <div>\u00A9 {new Date().getFullYear()} Breedlove Grooming Salon & Spa. All rights reserved.</div>
+          <div> {new Date().getFullYear()} Breedlove Grooming Salon & Spa. All rights reserved.</div>
           <div className="flex gap-6">
-            <Link href="/contact" className="hover:text-white">Contact</Link>
-            <Link href="/book" className="hover:text-white">Book Appointment</Link>
+            <Link href="#contact" className="hover:text-white">Contact</Link>
+            <Link href="#book" className="hover:text-white">Book Appointment</Link>
           </div>
         </div>
       </div>
