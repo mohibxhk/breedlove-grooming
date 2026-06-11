@@ -7,11 +7,11 @@ import { Button } from '@/components/ui/button';
 
 const NAV = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/services', label: 'Services' },
-  { href: '/gallery', label: 'Gallery' },
-  { href: '/reviews', label: 'Reviews' },
-  { href: '/contact', label: 'Contact' },
+  <span>About</span>
+<span>Services</span>
+<span>Gallery</span>
+<span>Reviews</span>
+<span>Contact</span>
 ];
 
 export function Navbar() {
