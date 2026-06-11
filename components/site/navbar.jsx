@@ -7,13 +7,12 @@ import { Button } from '@/components/ui/button';
 
 const NAV = [
   { href: '/', label: 'Home' },
-  <span>About</span>
-<span>Services</span>
-<span>Gallery</span>
-<span>Reviews</span>
-<span>Contact</span>
+  { href: '#', label: 'About' },
+  { href: '#', label: 'Services' },
+  { href: '#', label: 'Gallery' },
+  { href: '#', label: 'Reviews' },
+  { href: '#', label: 'Contact' },
 ];
-
 export function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
