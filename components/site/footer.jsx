@@ -67,7 +67,8 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/55">
-          <div> {new Date().getFullYear()} Breedlove Grooming Salon & Spa. All rights reserved.</div>
+          <div> {new Date().getFullYear()} Breedlove Grooming Salon & Spa. All rights reserved
+            Powered by Hubofecom.</div>
           <div className="flex gap-6">
             <Link href="#contact" className="hover:text-white">Contact</Link>
             <Link href="#book" className="hover:text-white">Book Appointment</Link>
