@@ -67,8 +67,8 @@ export function Navbar() {
             <Phone className="h-4 w-4" /> (309) 694-0000
           </a>
           <Button asChild className="bg-brand-sage hover:bg-brand-sage-dark text-white rounded-full px-6 h-11">
-            <Link href="/book">Book Appointment</Link>
-          </Button>
+  <Link href="#">Book Appointment</Link>
+</Button>
         </div>
 
         <button
